@@ -1,0 +1,15 @@
+ <h3>Hola {{usuario.user}}</h3>
+ <form action="/api/register/logout" method="GET">
+ <button>Desloguearse</button>
+ </form> 
+ 
+ <form action="/api/productos" method="POST">
+      <label for="nombre">Nombre de producto:</label><br>
+      <input type="text" id="nombre" name="nombre"><br>
+      <label for="marca">Marca:</label><br>
+      <input type="text" id="marca" name="marca"><br><br>
+      <label for="precio">Precio:</label><br>
+      <input type="number" id="precio" name="precio"><br><br>
+      
+      <button>enviar</button>
+    </form>
